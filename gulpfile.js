@@ -36,10 +36,10 @@ var lintFiles = [
 gulp.task('build', function() {
   gulp.src(sourceFiles)
     .pipe(plumber())
-    .pipe(concat('svginclude.js'))
+    .pipe(concat('svgInclude.js'))
     .pipe(gulp.dest('./dist/'))
     .pipe(uglify())
-    .pipe(rename('svginclude.min.js'))
+    .pipe(rename('svgInclude.min.js'))
     .pipe(gulp.dest('./dist'));
 });
 

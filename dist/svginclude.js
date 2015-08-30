@@ -5,21 +5,21 @@
   // before all nested files are concatenated by Gulp
 
   // Config
-  angular.module('svginclude.config', [])
+  angular.module('dgn.svginclude.config', [])
 
   // Modules
   
-  angular.module('svginclude.directives', []);
+  angular.module('dgn.svginclude.directives', []);
   
-  angular.module('svginclude',
+  angular.module('dgn.svginclude',
       [
-        'svginclude.config',
-        'svginclude.directives'
+        'dgn.svginclude.config',
+        'dgn.svginclude.directives'
       ]);
 
 })(angular);
 
-angular.module('svginclude.directives')
+angular.module('dgn.svginclude.directives')
   .directive('svginclude', [function() {
       return {
         
