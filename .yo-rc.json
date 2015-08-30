@@ -1,0 +1,29 @@
+{
+  "generator-angular-package": {
+    "props": {
+      "author": {
+        "name": "inbar",
+        "email": "poupik@gmail.com"
+      },
+      "yourModule": {
+        "original": "svgInclude",
+        "camelized": "svgInclude",
+        "dasherized": "svg-include",
+        "slugified": "svginclude",
+        "parts": [
+          "svginclude"
+        ]
+      },
+      "includeModuleDirectives": true,
+      "includeModuleFilters": false,
+      "includeModuleServices": false,
+      "includeModuleControllers": false,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "moduleDirectory": "modules/svginclude",
+      "moduleUnitTestDirectory": "test/unit/svginclude",
+      "moduleUnitE2eDirectory": "test/e2e/svginclude"
+    }
+  }
+}
